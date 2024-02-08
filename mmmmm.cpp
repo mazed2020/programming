@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;int main(){    int arr[]={2,9,1,4,6,1};    for(int i=0; i<6; i++)    {        for(int j=i+1; j<6;j++)        {            if(arr[i]<arr[j])            break;            else if(j==5)            cout<<arr[i]<<",";        }    }     cout<<arr[arr.size()];    return 0 ;}
